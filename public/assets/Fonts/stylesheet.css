@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "nimbus_sans_cond_lregular";
+  src: url("nimbussanconl-reg-webfont.woff2") format("woff2"),
+    url("nimbussanconl-reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
