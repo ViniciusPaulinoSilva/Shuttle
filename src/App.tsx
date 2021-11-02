@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Under development</h1>
+      <h3>Your new and improved terra wallet</h3>
     </div>
   );
 }
