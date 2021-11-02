@@ -3,6 +3,11 @@
   "description": "Terra wallet",
   "author": "Shuttle Team",
   "version": "0.0.1",
+  "icons": {
+    "16": "shuttle16.png",
+    "48": "shuttle48.png",
+    "128": "shuttle128.png"
+  },
   "manifest_version": 3,
   "permissions": ["activeTab"],
   "action": {

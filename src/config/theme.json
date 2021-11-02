@@ -1,0 +1,23 @@
+{
+  "colors": {
+    "primary": "#6DF6FF",
+    "primaryDarker": "##00D1FF",
+    "positive": "##B3FF85",
+    "negative": "##FF9270",
+    "backgroundPrimary": "#B6B3AE",
+    "backgroundSecondary": "#C6C1BD",
+    "backgroundTertiary": "#21201F",
+    "backgroundQuaternary": "#2C2B29",
+    "backgroundQuinary": "#363634"
+  },
+  "fonts": {
+    "regular": "Nimbus-Regular",
+    "bold": "Nimbus-Bold"
+  },
+  "fontSizes": {
+    "title": 20,
+    "subtitle": 18,
+    "input": 14,
+    "label": 12
+  }
+}
