@@ -35,3 +35,9 @@ export const ValueVariationDiv = styled.div`
   border-radius: 4px;
   align-self: center;
 `;
+
+export const AssetsDiv = styled.div`
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-top: 20px;
+`;
