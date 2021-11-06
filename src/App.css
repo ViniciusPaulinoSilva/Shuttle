@@ -1,17 +1,8 @@
 .App {
   text-align: center;
-  height: 250px;
-  width: 500px;
+  height: 490px;
+  width: 370px;
   font-family: "nimbus_sans_cond_lregular";
   background-color: var(--backgroundPrimary);
-}
-
-h1 {
-  color: var(--textPrimary);
-  font-size: var(--title);
-}
-
-h3 {
-  color: var(--textPrimary);
-  font-size: var(--subtitle);
+  position: relative;
 }

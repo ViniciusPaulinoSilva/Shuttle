@@ -1,13 +1,24 @@
 import React from "react";
+import "./index.css";
 import "./styles/global.css";
 import "./App.css";
+import {MemoryRouter as Router} from "react-router-dom";
+import Routes from "./routes";
+
+import BottomTab from "./components/bottomTab/bottomTab";
+import HeaderLogged from "./components/headerLogged/headerLogged";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Under development</h1>
-      <h3>Your new and improved terra wallet</h3>
-    </div>
+    <>
+      <Router>
+        <div className="App">
+          <HeaderLogged />
+          <Routes />
+          <BottomTab />
+        </div>
+      </Router>
+    </>
   );
 }
 
