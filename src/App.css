@@ -5,4 +5,5 @@
   font-family: "nimbus_sans_cond_lregular";
   background-color: var(--backgroundPrimary);
   position: relative;
+  border-radius: 4px;
 }

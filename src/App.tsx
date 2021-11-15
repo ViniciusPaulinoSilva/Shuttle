@@ -7,15 +7,17 @@ import Routes from "./routes";
 
 import BottomTab from "./components/bottomTab/bottomTab";
 import HeaderLogged from "./components/headerLogged/headerLogged";
+import { useUtils } from "./hook/utils";
 
 function App() {
+  const {showHeader} = useUtils()
   return (
     <>
       <Router>
         <div className="App">
-          <HeaderLogged />
+          {showHeader && <HeaderLogged />}
           <Routes />
-          <BottomTab />
+          {showHeader && <BottomTab />}
         </div>
       </Router>
     </>

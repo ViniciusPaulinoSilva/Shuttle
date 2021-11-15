@@ -1,9 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import * as S from "./home.styled";
 import LunaLogo from "../../assets/icons/coins/ic_luna_logo.svg";
 import AssetCard from "../../components/assetCard/assetCard";
+import { useUtils } from "../../hook/utils";
+
 
 const Home: React.FC = () => {
+  const {setShowHeader} = useUtils()
+  
+  useEffect(() => {
+    setShowHeader(true);
+  }, [setShowHeader])
+
   const assets = [
     {
       logo: LunaLogo,
@@ -20,6 +28,7 @@ const Home: React.FC = () => {
       variation: "0,01",
     },
   ];
+
   return (
     <S.Container>
       <S.WalletResume>
@@ -30,7 +39,7 @@ const Home: React.FC = () => {
       </S.WalletResume>
       <S.AssetsDiv>
         {assets.map((asset) => (
-          <AssetCard assetInfos={asset} />
+          <AssetCard assetInfos={asset} key={asset.name}/>
         ))}
       </S.AssetsDiv>
     </S.Container>
